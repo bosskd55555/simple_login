@@ -25,7 +25,7 @@ public class BaseClass
 	@Managed	
 	 static WebDriver driver;
 	
-	 static Logger log = Logger.getLogger("devpinoyLogger");
+	/* static Logger log = Logger.getLogger("devpinoyLogger");*/
 	 ReadConfig readconfig=new ReadConfig();
 	 
 	 
@@ -126,8 +126,8 @@ public class BaseClass
 		File target=new File("C://Selenium//HybridFramework//Inetbanking//Screenshots//"+ tname +".png");
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken");
-		log.info("screenshot taken");
-		
+		/*log.info("screenshot taken");
+*/		
 		
 		
 	}

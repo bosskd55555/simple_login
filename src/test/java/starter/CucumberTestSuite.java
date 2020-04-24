@@ -18,8 +18,8 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
         		//glue= {"starter.stepdefinitions.SearchOnDuckDuckGoStepDefinitions"},
         
         		
-      //  monochrome=true,
-      //  plugin= {"pretty","html:test-outout","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
+      monochrome=true,
+       plugin= {"pretty","html:test-outout","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
         //strict=true,
         dryRun=false
    

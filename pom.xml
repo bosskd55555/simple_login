@@ -101,11 +101,11 @@
             <scope>test</scope>
         </dependency>
         
-        <dependency>
+<!--         <dependency>
     <groupId>log4j</groupId>
     <artifactId>log4j</artifactId>
     <version>1.2.17</version>
-</dependency>
+</dependency> -->
         
     </dependencies>
     <build>
@@ -159,9 +159,9 @@
                 <groupId>net.serenity-bdd.maven.plugins</groupId>
                 <artifactId>serenity-maven-plugin</artifactId>
                 <version>${serenity.maven.version}</version>
-                <configuration>
+                <!-- <configuration>
                     <tags>${tags}</tags>
-                </configuration>
+                </configuration> -->
                 <dependencies>
                     <dependency>
                         <groupId>net.serenity-bdd</groupId>
@@ -173,9 +173,9 @@
                     <execution>
                         <id>serenity-reports</id>
                         <phase>post-integration-test</phase>
-                        <goals>
+                       <!--  <goals>
                             <goal>aggregate</goal>
-                        </goals>
+                        </goals> -->
                     </execution>
                 </executions>
             </plugin>

@@ -40,7 +40,7 @@ public class Deals_page_object extends BaseClass {
 		//dl.deals_link();
 		Thread.sleep(10000);
 		dl.new_button();
-		log.info("clicked deals"); 
+		//log.info("clicked deals"); 
 		 
 		 
 		 Thread.sleep(10000);
@@ -52,7 +52,7 @@ public class Deals_page_object extends BaseClass {
 	@Step("entering deal details")	
 	public void deals_dashboard()
 	{
-		log.info("entering deal details-entry");
+		//log.info("entering deal details-entry");
 		
 		deals_crm dl=new deals_crm(driver);	
 		
