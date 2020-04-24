@@ -159,9 +159,9 @@
                 <groupId>net.serenity-bdd.maven.plugins</groupId>
                 <artifactId>serenity-maven-plugin</artifactId>
                 <version>${serenity.maven.version}</version>
-                <!-- <configuration>
+                 <configuration>
                     <tags>${tags}</tags>
-                </configuration> -->
+                </configuration> 
                 <dependencies>
                     <dependency>
                         <groupId>net.serenity-bdd</groupId>
