@@ -173,9 +173,9 @@
                     <execution>
                         <id>serenity-reports</id>
                         <phase>post-integration-test</phase>
-                        <goals>
-                            <goal>aggregate</goal>
-                        </goals> 
+                       // <goals>
+                         //   <goal>aggregate</goal>
+                        //</goals> 
                     </execution>
                 </executions>
             </plugin>
